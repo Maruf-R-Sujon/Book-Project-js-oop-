@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book-List</title>
+    <link rel="stylesheet" href="./assets/css/skeleton.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Book-List</h2>
+        <div id="flash-msg"></div>
+        <form id="book-form">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" class="u-full-width" id="title">
+            </div>
+            <div class="form-group">
+                <label for="author">Author</label>
+                <input type="text" class="u-full-width" id="author">
+            </div>
+            <div class="form-group">
+                <label for="isbn">ISBN</label>
+                <input type="text" class="u-full-width" id="isbn">
+            </div>
+            <div class="form-group">
+                <input type="submit" class="u-full-width btn" id="title">
+            </div>
+        </form>
+        <hr>
+        <table class="table u-full-width">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author Name</th>
+                    <th>ISBN</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody class="show-book-list">
+               
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
